@@ -33,4 +33,4 @@ Four simple steps to accelerate your career growth
 ## Ready to Accelerate Your Career?
 Join thousands of professionals who are advancing their careers with AI-powered guidance.
 
-[Start Your Journey Today](https://foonda.ayamash.tech/dashboard)
+[Start Your Journey Today](https://foonda.ayamash.tech/onboarding)
