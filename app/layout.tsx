@@ -38,10 +38,10 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Header />
-            <main className="min-h-screen">{children}</main>
-            <footer className="bg-muted/50 py-3">
+            <main className="min-h-screen relative w-full">{children}</main>
+            <footer className="py-3 bottom-0 fixed w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>
+                <p className="text-xs">
                   Made with ❤️ by <a href="https://ayamash.tech">Aya Mash</a>
                 </p>
               </div>
