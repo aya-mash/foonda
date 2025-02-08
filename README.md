@@ -9,3 +9,28 @@ Features
 - Personalized Recommendations: Guides users based on their interests, strengths, and educational background.
 - Relational Data: Simulates a real-world database with connected data for institutions, bursaries, careers, and users.
 - Scalable Architecture: Designed for future enhancements, including a robust backend API and dynamic user profiles.
+
+
+
+# How It Works
+Four simple steps to accelerate your career growth
+
+### Personalized Onboarding
+- Tell us about your academic background, interests, and career goals to receive tailored recommendations.
+
+### Explore Opportunities
+- Discover universities, TVET colleges, bursaries, and career paths that match your aspirations.
+
+### Build Your Future
+- Create ATS-optimized resumes, craft compelling cover letters, and access career-enhancing resources.
+
+### Enhance Your Skills
+- Prepare for interviews with AI-powered mock sessions and expert-curated role-specific questions.
+
+### Stay Informed & Grow
+- Track your progress, access real-time industry insights, and connect with mentors to elevate your career.
+
+## Ready to Accelerate Your Career?
+Join thousands of professionals who are advancing their careers with AI-powered guidance.
+
+![Start Your Journey Today](https://foonda.vercel.app/dashboard)
