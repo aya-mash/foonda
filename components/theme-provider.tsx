@@ -29,8 +29,8 @@ export function ThemeProvider({
   const options: ISourceOptions = useMemo(
     () => ({
       fps_limit: 60,
-      background: {
-        color: "#121212",
+      style: {
+        backgroundImage: "linear-gradient(to right, #121212, #141414, #1f1f1f)",
       },
       interactivity: {
         detectsOn: "canvas",
@@ -65,7 +65,7 @@ export function ThemeProvider({
           straight: false,
         },
         number: { density: { enable: true, area: 1000 }, value: 50 },
-        opacity: { value: 0.05 },
+        opacity: { value: 0.09 },
         shape: { type: "circle" },
         size: { random: true, value: 4 },
       },

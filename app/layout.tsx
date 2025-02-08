@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   applicationName: "Foonda",
   authors: [{ name: "Ayabulela Mahlathini" }],
   creator: "Ayabulela Mahlathini",
+  openGraph: {
+    title: "Foonda",
+    description: "Your Personalized Gateway to Education and Careers ",
+    siteName: "Foonda",
+    type: "website",
+    url: "https://foonda.vercel.app",
+  },
 };
 
 export default function RootLayout({
