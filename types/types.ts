@@ -56,14 +56,23 @@ export type Resume = {
 export type CoverLetter = {
   id: string;
   userId: string;
-  user: User;
-  content: string;
-  jobDescription?: string;
+  content?: string | null;
+  jobDescription?: string | null;
   companyName: string;
   jobTitle: string;
   status: string;
   createdAt: Date;
   updatedAt: Date;
+};
+
+//Entry Type
+export type Entry = {
+  title: string;
+  organization: string;
+  startDate: string;
+  endDate?: string;
+  description: string;
+  current: boolean;
 };
 
 type SalaryRange = {
@@ -88,3 +97,4 @@ export type IndustryInsight = {
   lastUpdated: Date;
   nextUpdate: Date;
 };
+
