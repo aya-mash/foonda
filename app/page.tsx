@@ -1,10 +1,16 @@
 import HeroSection from "@/components/hero";
 import { features } from "@/data/features";
-import { Card, CardContent } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+} from "@/components/ui/card";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { howItWorks } from "@/data/howItWorks";
+import { Badge } from "@/components/ui/badge";
 
 const Home = () => {
   return (
@@ -16,12 +22,15 @@ const Home = () => {
             key={feature.id}
             className="border-2 hover:border-primary transition-colors duration-300"
           >
-            <CardContent className="pt-6 text-center flex flex-col items-center">
-              <div className="flex flex-col items-center justify-center">
-                {feature.icon}
-                <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
-                <p className="text-muted-foreground">{feature.description}</p>
-              </div>
+            <CardHeader className="flex flex-col items-center justify-center">
+              {feature.icon}
+              {feature.type && <Badge>{feature.type}</Badge>}
+            </CardHeader>
+            <CardContent className="pt-2 text-center flex flex-col items-center">
+              <h3 className="text-xl font-bold mb-2 align-middle">
+                {feature.title}
+              </h3>
+              <CardDescription>{feature.description}</CardDescription>
             </CardContent>
           </Card>
         ))}
