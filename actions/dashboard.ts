@@ -1,6 +1,7 @@
 "use server";
 
 import { db } from "@/lib/prisma";
+import { IndustryInsight } from "@/types/types";
 import { auth } from "@clerk/nextjs/server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
@@ -64,5 +65,5 @@ export async function getIndustryInsights() {
     return industryInsight;
   }
 
-  return user.industryInsight;
+  return user.industryInsight as IndustryInsight;
 }

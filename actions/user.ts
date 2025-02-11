@@ -42,7 +42,7 @@ export async function updateUser(data: User) {
         }
 
         // Now update the user
-        const updatedUser = await tx.user.update({
+        const updatedUser: any = await tx.user.update({
           where: {
             id: user.id,
           },

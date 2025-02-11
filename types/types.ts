@@ -1,3 +1,11 @@
+import { JsonValue } from "@prisma/client/runtime/library";
+
+export type Industry = {
+  id: string;
+  name: string;
+  subIndustries: string[];
+};
+
 // User Type
 export type User = {
   id: string;
@@ -6,6 +14,7 @@ export type User = {
   name?: string;
   imageUrl?: string;
   industry?: string;
+  subIndustry?: string;
   industryInsight?: IndustryInsight;
   createdAt: Date;
   updatedAt: Date;
@@ -75,18 +84,19 @@ export type Entry = {
   current: boolean;
 };
 
-type SalaryRange = {
+type SalaryRange = JsonValue & {
   role: string;
   min: number;
   max: number;
   median: number;
   location?: string;
 };
+
 // IndustryInsight Type
 export type IndustryInsight = {
   id: string;
   industry: string;
-  users: User[];
+  users?: User[];
   salaryRanges: SalaryRange[];
   growthRate: number;
   demandLevel: "High" | "Medium" | "Low";
@@ -97,4 +107,3 @@ export type IndustryInsight = {
   lastUpdated: Date;
   nextUpdate: Date;
 };
-
