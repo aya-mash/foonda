@@ -1,6 +1,7 @@
 "use server";
 
 import { db } from "@/lib/prisma";
+import { Resume } from "@/types/types";
 import { auth } from "@clerk/nextjs/server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { revalidatePath } from "next/cache";
@@ -33,7 +34,7 @@ export async function saveResume(content: string) {
     });
 
     revalidatePath("/resume");
-    return resume;
+    return resume as Resume;
   } catch (error) {
     console.error("Error saving resume:", error);
     throw new Error("Failed to save resume");
