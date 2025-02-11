@@ -42,7 +42,7 @@ export const features = [
     id: 4,
     icon: <Briefcase className="w-10 h-10 mb-4 text-primary" />,
     title: "Bursary & Scholarship Finder",
-    type: "Coming Soon",
+    type: "Planned",
     description:
       "Easily explore and apply for bursaries and scholarships from various South African institutions.",
   },
@@ -50,7 +50,7 @@ export const features = [
     id: 5,
     icon: <GraduationCap className="w-10 h-10 mb-4 text-primary" />,
     title: "University & TVET College Guide",
-    type: "Coming Soon",
+    type: "Planned",
     description:
       "Access a comprehensive database of South African universities, TVET colleges, courses, and admission requirements.",
   },
@@ -58,7 +58,7 @@ export const features = [
     id: 6,
     icon: <UserCheck className="w-10 h-10 mb-4 text-primary" />,
     title: "Mentorship & Career Coaching",
-    type: "Coming Soon",
+    type: "Planned",
     description:
       "Connect with industry professionals and mentors for guidance on career growth and skill development.",
   },
@@ -66,7 +66,7 @@ export const features = [
     id: 7,
     icon: <Users className="w-10 h-10 mb-4 text-primary" />,
     title: "Community & Networking",
-    type: "Coming Soon",
+    type: "Planned",
     description:
       "Engage with like-minded individuals, educators, and employers in a collaborative learning environment.",
   },
