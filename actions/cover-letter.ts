@@ -22,7 +22,7 @@ export async function generateCoverLetter(data: CoverLetter) {
   const prompt = `
     Write a professional cover letter for a ${data.jobTitle} position at ${
     data.companyName
-  }.
+  } in the context of the South African job market.
     
     About the candidate:
     - Industry: ${user.industry}

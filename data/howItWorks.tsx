@@ -19,7 +19,7 @@ export const howItWorks = [
     id: 2,
     title: "Build Your Future",
     description:
-      "Create ATS-optimized resumes, craft compelling cover letters, and access career-enhancing resources.",
+      "Create ATS-optimised CVs, craft compelling cover letters, and access career-enhancing resources.",
     icon: <FileEdit className="w-8 h-8 text-primary" />,
   },
   {

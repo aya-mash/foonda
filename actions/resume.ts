@@ -78,7 +78,7 @@ export async function improveWithAI({ current, type }: ImproveWithAIInput) {
 
   const prompt = `
     As an expert resume writer, improve the following ${type} description for a ${user.industry} professional.
-    Make it more impactful, quantifiable, and aligned with industry standards.
+    Make it more impactful, quantifiable, and aligned with South African industry standards.
     Current content: "${current}"
 
     Requirements:
