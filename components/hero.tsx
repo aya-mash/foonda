@@ -13,7 +13,7 @@ const HeroSection = () => {
             Foonda is your gateway to discovering the best educational and
             career opportunities in South Africa. Whether you are a student
             looking for bursaries, a parent guiding your child’s future, or a
-            professional seeking growth, Foonda provides a personalized
+            professional seeking growth, Foonda provides a personalised
             experience to help you make informed decisions.
           </p>
           <div className="flex gap-2 mt-4 justify-center">

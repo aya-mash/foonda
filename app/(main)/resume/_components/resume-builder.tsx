@@ -128,7 +128,7 @@ export default function ResumeBuilder({
     try {
       const element = document.getElementById("resume-pdf");
 
-      await createPdfFromHtml("resume.pdf", element);
+      await createPdfFromHtml("cv.pdf", element);
     } catch (error) {
       console.error("PDF generation error:", error);
     } finally {
@@ -154,7 +154,7 @@ export default function ResumeBuilder({
     <div data-color-mode="light" className="space-y-4">
       <div className="flex flex-col md:flex-row justify-between items-center gap-2">
         <h1 className="font-bold gradient-title text-5xl md:text-6xl">
-          Resume Builder
+          CV Builder
         </h1>
         <div className="space-x-2">
           <Button
@@ -232,7 +232,7 @@ export default function ResumeBuilder({
                     id="contact-mobile"
                     {...register("contactInfo.mobile")}
                     type="tel"
-                    placeholder="+1 234 567 8900"
+                    placeholder="+27 12 345 6789"
                   />
                   {errors.contactInfo?.mobile && (
                     <p className="text-sm text-red-500">
@@ -397,7 +397,7 @@ export default function ResumeBuilder({
               {resumeMode === "preview" ? (
                 <>
                   <Edit className="h-4 w-4" />
-                  Edit Resume
+                  Edit CV
                 </>
               ) : (
                 <>

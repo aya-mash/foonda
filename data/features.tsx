@@ -15,7 +15,7 @@ export const features = [
     icon: <BrainCircuit className="w-10 h-10 mb-4 text-primary" />,
     title: "AI-Powered Career Guidance",
     description:
-      "Discover personalized career paths based on your strengths, interests, and educational background with AI-driven insights.",
+      "Discover personalised career paths based on your strengths, interests, and educational background with AI-driven insights.",
   },
   {
     id: 1,
@@ -27,9 +27,9 @@ export const features = [
   {
     id: 2,
     icon: <ScrollText className="w-10 h-10 mb-4 text-primary" />,
-    title: "Smart Resume & Cover Letter Builder",
+    title: "Smart CV & Cover Letter Builder",
     description:
-      "Create ATS-optimized resumes and professional cover letters with AI-powered suggestions.",
+      "Create ATS-optimised CVs and professional cover letters with AI-powered suggestions.",
   },
   {
     id: 3,
